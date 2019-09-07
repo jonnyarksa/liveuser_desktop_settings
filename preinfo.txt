@@ -1,0 +1,29 @@
+Calamares offline installer tips
+Our default installer in the live environment is Calamares, so you can have a smooth and friendly experience to install EndeavourOS on your machine.
+
+Not every product is perfect, so here are some tips to guide you through a smoother install experience by these workarounds to avoid running into the upstream Calamares bugs.
+
+Calamares partitioning scheme
+When you want to install EndeavourOS as your only installed system on your disk, then you can use either the manual or automatic partition choice in the Calamares menu.
+
+Manual partition on EFI systems
+When creating the fat32 partition for boot, you’ll notice that the flag ‘esp’ isn’t in the options anymore, you can choose the flag ‘boot’ instead.
+
+To avoid problems, you can make a partition scheme by using Gparted before you start Calamares. When you have set the partitions and flags, you can start up Calamares and choose manual installation. We recommend this with all installation schemes, by the way.
+
+LUKS encryption
+At this moment we don’t recommend to use the option for encryption at all, due to an upstream bug with Calamares.
+
+Dual boot with Windows
+This is not a workaround but just an important tip:
+
+When you use the same EFI/fat32 partition that Windows uses for boot, DO NOT FORMAT THE PARTITION. Just to be on the safe side, double-check that you didn’t format it before clicking on the install button.
+
+Log files and bug reports
+You can actually help us improve the installer by sending us your logfile when you encountering a problem during install. Calamares makes a logfile by default and you can retrieve it by copy-paste the following in the terminal:
+
+mousepad /home/liveuser/endeavour-install.log
+Or pastebin it and show the URL in the forum:
+
+cat /home/liveuser/endeavour-install.log | curl -F 'f:1=<-' ix.io
+This will upload the log to ix.io and create a short URL to the log file.
