@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=install
+Comment=pre install EndeavourOS launcher
+Exec=sh /home/liveuser/install
+Icon=/usr/share/endeavouros/EndeavourOS-icon.png
+Terminal=False

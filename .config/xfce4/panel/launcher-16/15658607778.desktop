@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=System Profiler and Benchmark
+Comment=Displays system information
+Exec=/usr/bin/hardinfo
+Icon=dialog-information
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=System;
+Keywords=linux;kernel;system;hardware;cpu;processor;capabilities;frequency;memory;ram;board;resources;sensors;devices;usb;pci;display;network;benchmark;test;
+X-XFCE-Source=file:///usr/share/applications/hardinfo.desktop
+Path=
