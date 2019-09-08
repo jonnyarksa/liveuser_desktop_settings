@@ -1,7 +1,7 @@
-favorites=exo-terminal-emulator.desktop,firefox.desktop,xfce-settings-manager.desktop,ristretto.desktop,org.xfce.Parole.desktop,pavucontrol.desktop,xfce4-taskmanager.desktop,Thunar.desktop
+favorites=exo-terminal-emulator.desktop,firefox.desktop,xfce-settings-manager.desktop,ristretto.desktop,org.xfce.Parole.desktop,xfce4-taskmanager.desktop,Thunar.desktop
 recent=
-button-title=EndeavourOS
-button-icon=/usr/share/endeavouros/EndeavourOS-icon.png
+button-title=LibertyOS
+button-icon=/usr/share/endeavouros/im-msn.svg
 button-single-row=false
 show-button-title=true
 show-button-icon=true
