@@ -4,8 +4,8 @@ StartHere() {
   local handle="987$$"
   yad --key=$handle --posx=40 --posy=40 --on-top --width=300 \
       --title="Install Liberty-OS" \
-	  --window-icon="/usr/share/endeavouros/logo2.png" \
-	  --image "/usr/share/endeavouros/logo3.png" \
+	  --window-icon="/usr/share/endeavouros/logo2.svg" \
+	  --image "/usr/share/endeavouros/logo2.svg" \
 	  --buttons-layout=center \
 	--button=' Install Liberty-OS!/usr/share/endeavouros/install.png:bash -c "pkexec calamares -d > /home/liveuser/libertyos-install.log"' \
 --dialog-sep
