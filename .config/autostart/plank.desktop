@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=plank
+Exec=gksu -u root plank
 Hidden=false
 NoDisplay=false
 Name=plank
