@@ -1,0 +1,10 @@
+[Added Associations]
+inode/symlink=firefox.desktop;
+image/jpeg=ristretto.desktop;
+inode/directory=exo-file-manager.desktop;
+x-scheme-handler/trash=exo-file-manager.desktop;
+
+[Default Applications]
+inode/directory=nautilus.desktop
+application=nautilus.desktop
+
